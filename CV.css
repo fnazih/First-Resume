@@ -1,0 +1,343 @@
+body
+{
+	font-family: monospace;
+	background-color: #CFCECE;
+	cursor: url("cursor.png"), pointer;
+}
+
+header
+{
+	border-style: solid;
+	border-color: black;
+	background-color: #DFD4E4;
+	margin-left: 10px;
+	padding: 10px;
+	border-radius: 20px;
+	box-shadow: 4px 4px 4px #111;
+	width: 96.5%;
+	display: flex;
+}
+
+figure
+{
+	float: left;
+}
+
+.title2
+{
+	padding-left: 5px;
+}
+
+#nom
+{
+	text-decoration: underline;
+	text-shadow: 1px 1px 4px #111;
+	width: 650px;
+	color: #4D567E;
+}
+
+p
+{
+	font-size: 14px;
+}
+
+.pres
+{
+	width: 712px;
+}
+
+.me
+{
+	width: 65%;
+}
+
+img
+{
+	margin-left: 3px;
+	margin-right: 10px;
+}
+
+#photo
+{
+	border-style: solid;
+	border-radius: 100px;
+	border-color: black;
+	width: 100%;
+	height: 100%;
+}
+
+
+#photo:hover
+{
+	border-style: solid;
+	border-radius: 0px;
+	border-color: black;
+	
+}
+
+#photo:hover{
+-webkit-transition: all 1s ease;
+-moz-transition: all 1s ease;
+-ms-transition: all 1s ease;
+-o-transition: all 1s ease;
+transition: all 1s ease;
+}
+
+#phot:hover img {
+-webkit-transform:scale(1.25);
+-moz-transform:scale(1.25);
+-ms-transform:scale(1.25);
+-o-transform:scale(1.25);
+transform:scale(1.25);
+}
+
+#otherlang
+{
+	float: right;
+	margin-top: 35px;
+	margin-left: 200px;
+}
+
+nav
+{
+	width: 23%;
+	text-align: justify;
+	padding: 5px;
+	border-style: solid;
+	border-color: black;
+	margin-top: 10px;
+	margin-left: 10px;
+	padding: 10px;
+	background-color: #E7E9FC;
+	height: 600px;
+	border-radius: 10px;
+	box-shadow: 4px 4px 4px #111;
+	overflow: auto;
+}
+
+#centre
+{
+	overflow: auto;
+	width: 70%;
+	height: 500px;
+	margin-top: 10px;
+	margin-left: 20px;
+	border-style: solid;
+	padding: 10px;
+	height: 600px;
+	border-radius: 10px;
+	background-color: #D2D4E8;
+	box-shadow: 4px 4px 4px #111;
+}
+
+#corps
+{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.title1
+{
+	font-size: 24px;
+	text-shadow: 0.5px 0.5px 4px #111;
+	margin-top: 10px;
+	color: #4D567E;
+}
+
+strong
+{
+	color: #0F1D9F;
+	margin-right: 5px;
+}
+
+#nomlangues
+{
+	width: 35%;
+}
+
+#stars
+{
+	width: 65%;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.etoiles
+{
+	margin-left: 0px;
+	margin-bottom: 0px;
+	margin-top: 16px;
+}
+
+#lenguas
+{
+	display: flex;
+}
+
+.category
+{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.date
+{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	float: left;
+	text-align: center;
+	width: 100px;
+	height: 20px;
+	font-weight: bold;
+	border-right: double;
+}
+
+.intitule
+{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	max-height: 50px;
+	width: 650px;
+	padding-left: 5px;
+}
+
+.lieu
+{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 105px;
+	width: 650px;
+	font-style: italic;
+	font-size: 12px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.description
+{
+	font-size: 12px;
+	margin-top: 0px;
+	margin-left: 105px;
+	width: 650px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: justify;
+}
+
+ul
+{
+	list-style-type: none;
+}
+
+li:before
+{
+	content: '- ';
+	margin-left: -20px;
+	line-height: 30px;
+}
+
+footer
+{
+	margin-top: 10px;
+	margin-left: 10px;
+	border-style: solid;
+	border-radius: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #B5A6CD;
+	box-shadow: 4px 4px 4px #111;
+	width: 98.3%;
+	height: 200px;
+}
+
+#footertitle
+{
+	text-shadow: 0.5px 0.5px 4px #111;
+	text-align: center;
+	width: 100%;
+	color: #4D567E;
+	font-size: 30px;
+}
+
+#contactt
+{
+	width: 98.3%;
+	text-align: center;
+	margin-right: 0px;
+}
+
+.boutonc
+{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.otherCV
+{
+	border-style: groove;
+	border-color: #A6AED8;
+	border-right-color: black;
+	border-bottom-color: black;
+	color: #A6AED8;
+	border-radius: 50px;
+	padding : 20px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 30px;
+	background-color: #5E689D;
+	box-shadow: 2px 2px 4px #111;
+}
+
+#print
+{
+	padding-top: 60px;
+	margin-left: 0px;
+	border-left: solid;
+	padding-left: 140px;
+	padding-bottom: 68px;
+}
+
+.otherCV:hover
+{
+	cursor: url("click.png"), pointer;
+}
+
+.email
+{
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+.email:hover
+{
+	cursor: url("click.png"), pointer;
+}
+
+a:hover
+{
+	cursor: url("click.png"), pointer;
+}
+
+.all-scroll
+{
+	cursor: all-scroll;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    cursor: url("scroll.png"), pointer;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 20px;
+    cursor: url("scroll.png"), pointer;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+    cursor: url("scroll.png"), pointer;
+}
